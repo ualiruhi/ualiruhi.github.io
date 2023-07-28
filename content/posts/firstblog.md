@@ -1,3 +1,12 @@
++++
+title = "My first blog about Making a website with 'Github' and 'Hugo' "
+author = ["Ali Ruhi Unal"]
+description = "How to make a Website with 'Hugo' and make it online with 'GitHub' "
+date = 2023-07-28
+tags = ["hugo", "github-pages"]
+draft = false
++++
+
 # **First Post**
 
 ## *First post of my first website, yea i know its weird but why not? Today im gonna make a documentation about how i host here and make this website for totally free.*
