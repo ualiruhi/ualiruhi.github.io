@@ -1,6 +1,6 @@
-baseURL = 'https://kullanıcıadı.github.io'
+baseURL = 'https://ualiruhi.github.io'
 languageCode = 'en-us'
-title = "Benim güzel blogum"
+title = "Ilk blog sayfam"
 theme = "hugo-coder"
 
 [author]
@@ -13,7 +13,7 @@ theme = "hugo-coder"
 [params]
   author = "Ali Ruhi Unal"
   info = "Ben bir geliştiriciyim"
-  description = "Burası benim mekanım"
+  description = "Hugo ile websitesi kurmak"
   keywords = "blog"
   colorScheme = "dark"
 
