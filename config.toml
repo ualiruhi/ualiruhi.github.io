@@ -1,6 +1,6 @@
 baseURL = 'https://ualiruhi.github.io'
 languageCode = 'en-us'
-title = "Ilk blog sayfam"
+title = "My First Website"
 theme = "hugo-coder"
 
 [author]
@@ -12,8 +12,8 @@ theme = "hugo-coder"
 
 [params]
   author = "Ali Ruhi Unal"
-  info = "Ben bir geliştiriciyim"
-  description = "Hugo ile websitesi kurmak"
+  info = "Trying to be a developer"
+  description = "Create a website with Hugo!"
   keywords = "blog"
   colorScheme = "dark"
 
