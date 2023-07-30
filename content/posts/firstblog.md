@@ -151,7 +151,17 @@ You can use [this](https://github.com/settings/tokens) link for Token.
 
 
 ```
-When you save and exit fifth step 
-
-
+When you save and exit fifth step
+$ hugo              # Required to save last changes
+$ git add .
+$ git commit -m "HugoSetup"
+$ git push -u origin main -f             ## Now it will ask for your username and password. Enter your GitHub username  
+                                         #  then you need to enter your token which starts with ghp to password section.
 ```
+While files uploading to GitHub wait 1-2 Minutes when its done follow these 
+![steps](Images/example.png)
+
+# 7 Step
+
+Now our website is ready! If u have a custom domain you can use it to publish your website too. Also if you want to make a new post like that tutorial
+https://github.com/username/username.github.io/content/posts/mynewpost.md use this directory.
