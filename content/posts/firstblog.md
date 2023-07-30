@@ -159,7 +159,7 @@ $ git push -u origin main -f             ## Now it will ask for your username an
                                          #  then you need to enter your token which starts with ghp to password section.
 ```
 While files uploading to GitHub wait 1-2 Minutes when its done follow these 
-![steps](example.png)
+![Example](content/posts/example.png)
 
 # 7 Step
 
