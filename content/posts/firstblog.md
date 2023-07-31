@@ -27,7 +27,6 @@ And create a new one named 'yourname.github.io'
  Then you need to install 'Hugo'
  
 ```bash
-
 | Arch | sudo pacman -S hugo |
 | Debian/Ubuntu | sudo apt install hugo |
 | Fedora | sudo dnf install hugo |
