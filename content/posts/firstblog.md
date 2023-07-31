@@ -9,7 +9,7 @@ draft = false
 
 # **First Post**
 
-## *First post of my first website, yea i know its weird but why not? Today im gonna make a documentation about how i host here and make this website for totally free.*
+## *First post of my first website, yea i know its weird but why not? Today im gonna make a documentation about how i host this website and make it for totally free.*
 
 ### **LETS START!**
 
