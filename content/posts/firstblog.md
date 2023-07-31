@@ -16,18 +16,18 @@ draft = false
 
 # 1 Step
 
-```bash
-{
  First you need to create a repo in your GitHub account.
 So login to your GitHub account and click your profile photo icon then click 'Your Repositories'
 And create a new one named 'yourname.github.io'
-}
-```
+
 # 2 Step
 
-```bash
+
 
  Then you need to install 'Hugo'
+ 
+```bash
+
 | Arch | sudo pacman -S hugo |
 | Debian/Ubuntu | sudo apt install hugo |
 | Fedora | sudo dnf install hugo |
@@ -38,8 +38,9 @@ And create a new one named 'yourname.github.io'
 
 # 3 Step
 
-```bash
 If you are using Linux many of them got already installed git
+
+```bash 
 | Arch : sudo pacman -S git |
 | Debian / Ubuntu : sudo apt install git |
 | Fedora : sudo dnf install git |
@@ -50,18 +51,21 @@ If you are using Linux many of them got already installed git
 
 # 4 Step
 
-```bash
+
 So the requirements done from now on, Lets go!
 First we need to send our 'repo' to our pc i mean terminal
- $ cd ~/Documents
+```bash
+$ cd ~/Documents
  $ git clone https://github.com/username/username.github.io
+```
 After that we need to install 'hugo' to inside 'repo'
+```bash
  $ hugo new site username.github.io --force
  $ cd username.github.io
-
+```
 Lets configure 'Hugo'
 
-
+```bash
 baseURL = 'https://username.github.io'
 languageCode = 'en-us'
 title = "Enter title"
@@ -102,15 +106,15 @@ theme = "hugo-coder"
 
 # 5 Step 
 
-```bash
 Dont forget to save it then we need to find a theme from *Hugo* I will use 'hugo-coder'
 
+```bash
    $ git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
-
+```
 Then we need to get our website refreshed on every change we did so this code will help us
-
+```bash
  $ mkdir .github/workflows -p
- $ nano .github/workflows/gh-pages.yml          #içine alttakileri yazın
+ $ nano .github/workflows/gh-pages.yml          #Paste them to this direction
 
  name: github pages
 
@@ -150,8 +154,9 @@ You can use [this](https://github.com/settings/tokens) link for Token.
 # 6 Step
 
 
-```
+
 When you save and exit fifth step
+```bash
 $ hugo              # Required to save last changes
 $ git add .
 $ git commit -m "HugoSetup"
