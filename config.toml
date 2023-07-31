@@ -29,7 +29,11 @@ theme = "hugo-coder"
   url = "index.xml"
   rel = "alternate"
   type = "application/rss+xml"
-
+[[params.social]]
+name = "Instagram"
+icon = "fa-brands fa-instagram"
+weight = 1
+url = "https://instagram.com/aliruhiunl"
 [[menu.main]]
   name = "Blog"
   weight = 1
