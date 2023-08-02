@@ -14,7 +14,7 @@ theme = "hugo-coder"
   author = "Ali Ruhi Unal"
   info = "Trying to be a developer"
   description = "Create a website with Hugo!"
-  keywords = "blog"
+  keywords = "blog, menu"
   colorScheme = "dark"
 
 [[params.social]]
