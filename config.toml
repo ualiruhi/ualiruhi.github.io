@@ -31,7 +31,7 @@ theme = "hugo-coder"
   type = "application/rss+xml"
 [[params.social]]
 name = "instagram"
-icon = "fa-instagram"
+icon = ""fa-brands fa-instagram"
 weight = 1
 url = "https://instagram.com/aliruhiunl"
 [[menu.main]]
