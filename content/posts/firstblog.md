@@ -167,5 +167,6 @@ While files uploading to GitHub wait 1-2 Minutes when its done follow these
 
 # 7 Step
 
-Now our website is ready! If u have a custom domain you can use it to publish your website too. Also if you want to make a new post like that tutorial
+Now our website is ready! If u have a custom domain you can use it to publish your website too.
+Also if you want to make a new post like that tutorial
 https://github.com/username/username.github.io/content/posts/mynewpost.md use this directory.
